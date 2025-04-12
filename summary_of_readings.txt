@@ -1,0 +1,16 @@
+Age Distribution Histogram:
+The histogram shows that the bulk of the passengers fall within a middle-age range, with fewer individuals on the very young or older ends. The relatively smooth kernel density plot reinforces that the distribution is unimodal, suggesting a central tendency in ages, though a slight skew or tail may be observed.
+Survival Count Bar Plot:
+The count plot for survival displays the imbalance in the survival outcome, indicating that fewer passengers survived compared to those who did not. This clear difference highlights that survival was generally low, which is consistent with the historical event.
+Survival by Gender (Bivariate Count Plot):
+When survival is broken down by gender, the plot indicates that there is a notable difference between male and female survival rates. Generally, female passengers show a higher survival rate relative to their male counterparts. This observation aligns with the "women and children first" protocol that was reportedly followed during the disaster.
+Age vs. Fare Scatter Plot (Colored by Survival):
+The scatter plot mapping age against fare, with distinct colors for survival, reveals some interesting trends. Passengers who paid higher fares (often correlating with higher-class accommodations) tend to have a higher chance of survival. In contrast, lower fare (which could indicate lower class) passengers are often observed among the non-survivors. The spread also highlights that while age plays a role, the fare (as a proxy for socioeconomic class) is a key differentiator.
+Correlation Heatmap:
+The heatmap shows how the numerical variables interrelate. Variables such as fare, passenger class, and survival are moderately correlated. For instance, higher fare values tend to be associated with lower passenger class numbers (indicative of first-class passengers), which in turn have a relationship with higher survival rates.
+Pair Plot:
+The pair plot provides a comprehensive view of the relationships between several continuous variables, with survival as the hue. This visualization confirms many of the earlier findings (such as differences in distributions between survivors and non-survivors) and helps in identifying patterns and outliers. It also reveals that certain pairs of features (like age and fare) might interact in predicting survival.
+Overall, these visualizations together provide a narrative:
+Age and class (with fare as the proxy) are vital factors in determining survival on the Titanic.
+Females enjoyed higher survival rates, and there is a clear stratification by socioeconomic status as inferred from fare levels.
+The underlying distributions and correlations support the idea that both inherent demographic factors (age, gender) and externally determined factors (class/fare) played roles in the survival outcomes.
